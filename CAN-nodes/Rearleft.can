@@ -1,0 +1,9 @@
+/*@!Encoding:1252*/
+variables {
+      message TurnLeftLamp TL;
+}
+
+on message TurnLeftLamp {
+      putValue (evRearLeft, this.TurnLeft);
+}
+

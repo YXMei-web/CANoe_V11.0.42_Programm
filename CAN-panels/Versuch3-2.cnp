@@ -1,0 +1,13 @@
+VPanel 16 176 136 0 0 255"control"
+255 255 255
+16
+ElemSBM 0 0 176 136 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VERSUC~4.BMP" "..\..\..\..\..\Bitmaps\Versuch3-4.bmp" * 1 0
+ElemEdit 30 10 50 19 EnvVar:evcarspeedtrans :0 0 2 1 0 0 16711680 0 -16 0 0 0 700 0 0 0 0 3 2 1 34"Verdana"""
+ElemEdit 30 40 50 19 EnvVar:evengspeedtrans :0 0 2 1 0 0 16711680 0 -16 0 0 0 700 0 0 0 0 3 2 1 34"Verdana"""
+ElemEdit 30 70 50 19 EnvVar:evtanktrans :0 0 2 1 0 0 16711680 0 -16 0 0 0 700 0 0 0 0 3 2 1 34"Verdana"""
+ElemEdit 30 100 50 19 EnvVar:evtemperaturetrans :0 0 2 1 0 0 16711680 0 -16 0 0 0 700 0 0 0 0 3 2 1 34"Verdana"""
+ElemST 85 10 65 20 0 0 0 16711680 -16 0 0 0 700 0 0 0 0 3 2 1 34"Verdana""km/h"
+ElemST 85 40 65 20 0 0 0 16711680 -16 0 0 0 700 0 0 0 0 3 2 1 34"Verdana""1/min"
+ElemST 85 100 65 20 0 0 0 16711680 -16 0 0 0 700 0 0 0 0 3 2 1 34"Verdana""°C"
+ElemST 85 70 65 20 0 0 0 16711680 -16 0 0 0 700 0 0 0 0 3 2 1 34"Verdana""l"
+@

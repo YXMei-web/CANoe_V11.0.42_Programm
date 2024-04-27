@@ -1,0 +1,78 @@
+/*@@var:*/
+variables
+{
+	timer delaytimer;
+	message dashboard sendmsg;
+}
+/*@@end*/
+
+/*@@startStart:Start:*/
+on start
+{
+	setTimer(delaytimer, 2);
+}
+/*@@end*/
+
+/*@@timer:delaytimer:*/
+on timer delaytimer
+{
+	output(sendmsg);
+	setTimer(delaytimer, 1);
+}
+/*@@end*/
+
+/*@@envVar:evcarspeedtrans:*/
+on envVar evcarspeedtrans
+{
+	if(getValue(this)<=155)
+	sendmsg.carspeed = (getValue(this)/0.2);
+	else 
+	{
+		write("ERROR -> VALUE OUT OF RANGE");
+		sendmsg.carspeed = 0;
+	}
+}
+/*@@end*/
+
+/*@@envVar:evengspeedtrans:*/
+on envVar evengspeedtrans
+{
+	if(getValue(this)<=8000)
+	sendmsg.engspeed = getValue(this);
+	else 
+	{
+		write("ERROR -> VALUE OUT OF RANGE");
+		sendmsg.engspeed = 0;
+	}
+}
+
+/*@@end*/
+
+/*@@envVar:evtanktrans:*/
+on envVar evtanktrans
+{
+	if (getValue(this)<=65)
+	sendmsg.tank = (getValue(this));
+	else 
+	{
+		write("ERROR -> VALUE OUT OF RANGE");
+		sendmsg.tank = 0;
+	}
+}
+/*@@end*/
+
+/*@@envVar:evtemperaturetrans:*/
+on envVar evtemperaturetrans
+{
+	if (getValue(this)<=150)
+	sendmsg.temperature = (getValue(this)/10);
+	else 
+	{
+		write("ERROR -> VALUE OUT OF RANGE");
+		sendmsg.temperature = 0;
+	}
+}
+	
+	
+/*@@end*/
+

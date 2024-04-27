@@ -1,0 +1,19 @@
+Date / Time
+===========
+11/30/2023 / 10:46 AM
+
+Conversion report:
+==================
+Information: The panel 'C:\Users\fpat\Documents\CAN-Versuch\Durchführung\LaboratoryCourse\ws2023-24\Group6_de\Vorlagen\CAN-panels\Versuch4-1.cnp' was converted successfully.
+
+Information: The panel 'C:\Users\fpat\Documents\CAN-Versuch\Durchführung\LaboratoryCourse\ws2023-24\Group6_de\Vorlagen\CAN-panels\Versuch4-2.cnp' was converted successfully.
+
+[Added Panels]
+Following panels are added to the configuration:
+C:\Users\fpat\Documents\CAN-Versuch\Durchführung\LaboratoryCourse\ws2023-24\Group6_de\Vorlagen\CAN-panels\Versuch4-1.xvp
+C:\Users\fpat\Documents\CAN-Versuch\Durchführung\LaboratoryCourse\ws2023-24\Group6_de\Vorlagen\CAN-panels\Versuch4-2.xvp
+
+[Removed Panels]
+Following panels are removed from the configuration:
+C:\Users\fpat\Documents\CAN-Versuch\Durchführung\LaboratoryCourse\ws2023-24\Group6_de\Vorlagen\CAN-panels\Versuch4-1.cnp
+C:\Users\fpat\Documents\CAN-Versuch\Durchführung\LaboratoryCourse\ws2023-24\Group6_de\Vorlagen\CAN-panels\Versuch4-2.cnp

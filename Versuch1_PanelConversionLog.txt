@@ -1,0 +1,15 @@
+Datum / Uhrzeit
+===============
+2024/4/27 / 15:21
+
+Konvertierungsbericht:
+======================
+Information: Das Panel 'G:\2023-24Wi\Lab\CAN\Group6_de\Vorlagen\CAN-panels\Versuch1-1.cnp' wurde erfolgreich konvertiert.
+
+[Added Panels]
+Folgende Panels wurden der Konfiguration hinzugefügt:
+G:\2023-24Wi\Lab\CAN\Group6_de\Vorlagen\CAN-panels\Versuch1-1.xvp
+
+[Removed Panels]
+Folgende Panels wurden aus der Konfiguration entfernt:
+G:\2023-24Wi\Lab\CAN\Group6_de\Vorlagen\CAN-panels\Versuch1-1.cnp

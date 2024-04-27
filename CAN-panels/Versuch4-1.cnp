@@ -1,0 +1,7 @@
+VPanel 16 166 82 0 0 255"Blinker Steuerung"
+255 255 255
+16
+ElemFrame 5 0 155 75 16777215 0 16 0 0 0 400 0 0 0 0 0 0 0 0"Courier New""Stick"
+ElemSwitchAndDisplay 10 25 90 30 <none> 3 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VE73DA~1.BMP" "..\..\..\..\..\Bitmaps\Versuch4-1.bmp"  1 0 0 1 1 0 0
+ElemSwitchAndDisplay 105 25 30 30 <none> 2 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VE73DE~1.BMP" "..\..\..\..\..\Bitmaps\Versuch4-2.bmp"  1 5 1 0 1 0 0
+@

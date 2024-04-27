@@ -1,0 +1,9 @@
+VPanel 16 392 257 0 0 255" Auﬂenansicht des Autos"
+255 255 255
+16
+ElemSwitchAndDisplay 0 0 128 128 EnvVar:evLightRearLeft 2 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VE83DA~1.BMP" "..\..\..\..\..\Bitmaps\Versuch4-5.bmp"  1 1 1 0 0 1 0
+ElemSwitchAndDisplay 264 0 128 128 EnvVar:evLightFrontLeft 2 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VE73D6~1.BMP" "..\..\..\..\..\Bitmaps\Versuch4-4.bmp"  1 1 1 0 0 1 0
+ElemSwitchAndDisplay 0 128 128 128 EnvVar:evLightRearRight 2 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VE83D2~1.BMP" "..\..\..\..\..\Bitmaps\Versuch4-7.bmp"  1 1 1 0 0 1 0
+ElemSwitchAndDisplay 264 128 128 128 EnvVar:evLightFrontRight 2 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VE83DE~1.BMP" "..\..\..\..\..\Bitmaps\Versuch4-6.bmp"  1 1 1 0 0 1 0
+ElemSBM 128 0 136 256 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VE73D2~1.BMP" "..\..\..\..\..\Bitmaps\Versuch4-3.bmp" * 1 0
+@

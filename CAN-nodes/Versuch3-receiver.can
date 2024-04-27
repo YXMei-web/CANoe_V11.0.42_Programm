@@ -1,0 +1,18 @@
+/*@@var:*/
+variables
+{
+	message dashboard sendmsg;
+}
+/*@@end*/
+
+/*@@msg:Cockpit::cockpit (0x100):*/
+on message dashboard
+{
+	
+	putValue (evtemperaturerec, ((this.temperature)*10));
+  	putValue(evtankrec, this.tank);
+    putValue(evcarspeedrec, ((this.carspeed)*0.2));
+	putValue(evengspeedrec, this.engspeed);
+}
+/*@@end*/
+

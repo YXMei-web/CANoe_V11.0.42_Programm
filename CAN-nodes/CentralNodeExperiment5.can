@@ -1,0 +1,85 @@
+/*@!Encoding:1252*/
+variables {
+      msTimer BlinkTimer;                      //Define a msBlinktimer
+      message TurnLeftLamp TL;
+      message TurnRightLamp TR;
+      message Window_Lifter WL;
+      msTimer WindowTimer;
+      int flag = 0;
+      int Left, Right;
+}
+
+on start {
+      setTimer(BlinkTimer,500);                //Set 500ms, e.g. 2Hz
+      setTimer(WindowTimer,150);
+}
+
+on timer WindowTimer{
+  output (WL);
+  setTimer(WindowTimer,500);
+}
+on envVar evwindowup {
+  WL.Leftdoor = getValue(this) ;
+  WL.Rightdoor = 0 ;
+  WL.windowup = getValue(this) ;
+  output (WL);
+ }
+on envVar evwindowdown {
+  WL.Leftdoor = getValue(this) ;
+  WL.Rightdoor = 0 ;
+  WL.windowdown = getValue(this) ;
+  output (WL);
+ }
+on envVar evwindowstore {
+  WL.Leftdoor = getValue(this) ;
+  WL.Rightdoor = 0 ;
+  WL.save_position = getValue(this) ;
+  output (WL);
+ }
+on envVar evwindowrestore {
+  WL.Leftdoor = getValue(this) ;
+  WL.Rightdoor = 0 ;
+  WL.Move_to_saved_position = getValue(this) ;
+  output (WL);
+ }
+on timer BlinkTimer {
+  if ((Left == 1) && (flag == 1))
+  {TL.TurnLeft = 1;}
+  else
+  {TL.TurnLeft = 0;}
+  
+  if ((Right == 1) && (flag == 1))
+  {TR.TurnRight = 1;}
+  else
+  {TR.TurnRight = 0;}
+  
+	output (TL);
+	output (TR);
+  flag = 1 - flag;
+	setTimer(BlinkTimer,500);
+}
+
+
+on envVar evTurnLeft {
+//	TL.TurnLeft = getValue(evTurnLeft);
+  Left = getValue(evTurnLeft);
+	//output (TL);
+	setTimer(BlinkTimer,500);
+}
+
+on envVar evTurnRight {
+	// TR.TurnRight = getValue(evTurnRight);
+  Right = getValue(evTurnRight);
+	//output (TR);
+	setTimer(BlinkTimer,500);
+}
+
+on envVar evAlarm {
+	//TL.TurnLeft = getValue(evAlarm);
+	//TR.TurnRight = getValue(evAlarm);
+  Left = getValue(evTurnLeft);
+  Right = getValue(evTurnRight);
+	//output (TL);
+	//output (TR);
+	setTimer(BlinkTimer,500);
+}

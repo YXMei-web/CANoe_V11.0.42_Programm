@@ -1,0 +1,12 @@
+VPanel 16 650 310 0 0 255"Driver Display"
+255 255 255
+16
+ElemSBM 0 0 650 310 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VERSUC~1.BMP" "..\..\..\..\..\Bitmaps\Versuch3-1.bmp" * 1 0
+ElemMeter 70 71 175 150 EnvVar:evengspeedrec 0 -130 110 1000 8000 3 1 255 0 0 0 0
+ElemMeter 415 70 170 150 EnvVar:evcarspeedrec 0 -130 120 10 155 7 1 255 0 0 0 0
+ElemMeter 285 26 90 54 EnvVar:evtemperaturerec 0 -50 40 0 150 7 1 255 0 0 0 0
+ElemMeter 280 35 97 73 EnvVar:evtankrec 0 235 130 0 65 7 1 255 0 0 0 0
+ElemSBM 319 64 18 15 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VERSUC~3.BMP" "..\..\..\..\..\Bitmaps\Versuch3-3.bmp" * 1 1
+ElemSBM 140 126 33 36 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VERSUC~2.BMP" "..\..\..\..\..\Bitmaps\Versuch3-2.bmp" * 1 1
+ElemSBM 484 127 33 36 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VERSUC~2.BMP" "..\..\..\..\..\Bitmaps\Versuch3-2.bmp" * 1 1
+@

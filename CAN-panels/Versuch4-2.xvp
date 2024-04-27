@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName=" Außenansicht des Autos">
+    <Object Type="Vector.CANalyzer.Panels.Design.PictureBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="PictureBoxControl0" ControlName="ElemSBM">
+      <Property Name="Name">PictureBoxControl0</Property>
+      <Property Name="Size">136,256</Property>
+      <Property Name="Location">128,0</Property>
+      <Property Name="ImageFile">..\..\..\..\..\Bitmaps\Versuch4-3.bmp</Property>
+      <Property Name="TransparentColor">3,2,1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControlBSI1" ControlName="EnvVar:evLightFrontRight">
+      <Property Name="Name">SwitchControlBSI1</Property>
+      <Property Name="Size">128,128</Property>
+      <Property Name="Location">264,128</Property>
+      <Property Name="ImageFile">..\..\..\..\..\Bitmaps\Versuch4-6.bmp</Property>
+      <Property Name="SymbolConfiguration">1;1;;;;evLightFrontRight</Property>
+      <Property Name="TransparentColor">3,2,1</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="Activation">LeftRight</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControlBSI2" ControlName="EnvVar:evLightRearRight">
+      <Property Name="Name">SwitchControlBSI2</Property>
+      <Property Name="Size">128,128</Property>
+      <Property Name="Location">0,128</Property>
+      <Property Name="ImageFile">..\..\..\..\..\Bitmaps\Versuch4-7.bmp</Property>
+      <Property Name="SymbolConfiguration">1;1;;;;evLightRearRight</Property>
+      <Property Name="TransparentColor">3,2,1</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="Activation">LeftRight</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControlBSI3" ControlName="EnvVar:evLightFrontLeft">
+      <Property Name="Name">SwitchControlBSI3</Property>
+      <Property Name="Size">128,128</Property>
+      <Property Name="Location">264,0</Property>
+      <Property Name="ImageFile">..\..\..\..\..\Bitmaps\Versuch4-4.bmp</Property>
+      <Property Name="SymbolConfiguration">1;1;;;;evLightFrontLeft</Property>
+      <Property Name="TransparentColor">3,2,1</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="Activation">LeftRight</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControlBSI4" ControlName="EnvVar:evLightRearLeft">
+      <Property Name="Name">SwitchControlBSI4</Property>
+      <Property Name="Size">128,128</Property>
+      <Property Name="Location">0,0</Property>
+      <Property Name="ImageFile">..\..\..\..\..\Bitmaps\Versuch4-5.bmp</Property>
+      <Property Name="SymbolConfiguration">1;1;;;;evLightRearLeft</Property>
+      <Property Name="TransparentColor">3,2,1</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="Activation">LeftRight</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+    </Object>
+    <Property Name="Panel">Panel</Property>
+    <Property Name="Size">392,257</Property>
+    <Property Name="BackColor">255,255,255</Property>
+  </Object>
+</Panel>

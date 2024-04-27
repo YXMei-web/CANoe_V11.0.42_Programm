@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="control">
+    <Object Type="Vector.CANalyzer.Panels.Design.ButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="ButtonControl0" ControlName="EnvVar:ID100_DLC1_LSB" Children="Controls">
+      <Property Name="Name">ButtonControl0</Property>
+      <Property Name="Size">270,35</Property>
+      <Property Name="Location">0,0</Property>
+      <Property Name="Font">Microsoft Sans Serif, 12pt, style=Bold</Property>
+      <Property Name="Text">ID100; DLC1; LSB</Property>
+      <Property Name="SymbolConfiguration">1;1;;;;ID100_DLC1_LSB</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.ButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="ButtonControl1" ControlName="EnvVar:ID100_DLC1_MSB" Children="Controls">
+      <Property Name="Name">ButtonControl1</Property>
+      <Property Name="Size">270,35</Property>
+      <Property Name="Location">0,35</Property>
+      <Property Name="Font">Microsoft Sans Serif, 12pt, style=Bold</Property>
+      <Property Name="Text">ID100; DLC1; MSB</Property>
+      <Property Name="SymbolConfiguration">1;1;;;;ID100_DLC1_MSB</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.ButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="ButtonControl2" ControlName="EnvVar:ID100_DLC2_LSB" Children="Controls">
+      <Property Name="Name">ButtonControl2</Property>
+      <Property Name="Size">270,35</Property>
+      <Property Name="Location">0,80</Property>
+      <Property Name="Font">Microsoft Sans Serif, 12pt, style=Bold</Property>
+      <Property Name="Text">ID100; DLC2; LSB</Property>
+      <Property Name="SymbolConfiguration">1;1;;;;ID100_DLC2_LSB</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.ButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="ButtonControl3" ControlName="EnvVar:ID100_DLC2_MSB" Children="Controls">
+      <Property Name="Name">ButtonControl3</Property>
+      <Property Name="Size">270,35</Property>
+      <Property Name="Location">0,115</Property>
+      <Property Name="Font">Microsoft Sans Serif, 12pt, style=Bold</Property>
+      <Property Name="Text"> ID100; DLC2; MSB</Property>
+      <Property Name="SymbolConfiguration">1;1;;;;ID100_DLC2_MSB</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.ButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="ButtonControl4" ControlName="EnvVar:ID100_DLC2_LSBMSB" Children="Controls">
+      <Property Name="Name">ButtonControl4</Property>
+      <Property Name="Size">270,35</Property>
+      <Property Name="Location">0,150</Property>
+      <Property Name="Font">Microsoft Sans Serif, 12pt, style=Bold</Property>
+      <Property Name="Text">ID100; DLC2; LSB-MSB</Property>
+      <Property Name="SymbolConfiguration">1;1;;;;ID100_DLC2_LSBMSB</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.ButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="ButtonControl5" ControlName="EnvVar:Remframe" Children="Controls">
+      <Property Name="Name">ButtonControl5</Property>
+      <Property Name="Size">270,35</Property>
+      <Property Name="Location">0,195</Property>
+      <Property Name="Font">Microsoft Sans Serif, 12pt, style=Bold</Property>
+      <Property Name="Text">ID100; Remoteframe</Property>
+      <Property Name="SymbolConfiguration">1;1;;;;Remframe</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.ButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="ButtonControl6" ControlName="EnvVar:Errframe" Children="Controls">
+      <Property Name="Name">ButtonControl6</Property>
+      <Property Name="Size">270,35</Property>
+      <Property Name="Location">0,240</Property>
+      <Property Name="Font">Microsoft Sans Serif, 12pt, style=Bold</Property>
+      <Property Name="Text">Errorframe</Property>
+      <Property Name="SymbolConfiguration">1;1;;;;Errframe</Property>
+    </Object>
+    <Property Name="Panel">Panel</Property>
+    <Property Name="Size">272,276</Property>
+    <Property Name="BackColor">255,255,255</Property>
+  </Object>
+</Panel>

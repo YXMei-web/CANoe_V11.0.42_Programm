@@ -1,0 +1,9 @@
+VPanel 16 208 109 0 0 255"Fenster Steuerung"
+255 255 255
+16
+ElemFrame 5 0 195 98 16777215 0 16 0 0 0 400 0 0 0 0 0 0 0 0"Courier New""Window"
+ElemBMMultiState 35 25 30 30 EnvVar:evWindowUpKey 1 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VE73D8~1.BMP" "..\..\..\..\..\Bitmaps\Versuch5-1.bmp"  2 1
+ElemBMMultiState 35 55 30 30 EnvVar:evWindowDownKey 1 <VFileName V4 QSL> 1 "..\..\..\..\..\Bitmaps\VE73DC~1.BMP" "..\..\..\..\..\Bitmaps\Versuch5-2.bmp"  2 1
+ElemBN 105 45 70 20 EnvVar:evWindowRestorePositionKey -11 0 0 0 700 0 0 0 0 3 2 1 49"Courier New""Restore"
+ElemBN 105 25 70 20 EnvVar:evWindowStorePositionKey -11 0 0 0 700 0 0 0 0 3 2 1 49"Courier New""Store"
+@

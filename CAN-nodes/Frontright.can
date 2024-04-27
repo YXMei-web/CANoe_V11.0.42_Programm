@@ -1,0 +1,9 @@
+/*@!Encoding:1252*/
+variables {
+      message TurnRightLamp TR;
+}
+
+on message TurnRightLamp {
+      putValue (evFrontRight, this.TurnRight);
+}
+

@@ -1,0 +1,92 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: Door RearRight_Node RearLeft_Node FrontRight_Node FrontLeft_Node_ Central_note
+
+
+BO_ 768 Window_Lifter: 1 Central_note
+ SG_ windowup : 6|1@1+ (1,0) [0|0] ""  Door
+ SG_ windowdown : 7|1@1+ (1,0) [0|0] ""  Door
+ SG_ Squeeze_Protection_off : 3|1@1+ (1,0) [0|0] ""  Door
+ SG_ save_position : 5|1@1+ (1,0) [0|0] ""  Door
+ SG_ Rightdoor : 1|1@1+ (1,0) [0|0] ""  Door
+ SG_ Move_to_saved_position : 4|1@1+ (1,0) [0|0] ""  Door
+ SG_ Leftdoor : 0|1@1+ (1,0) [0|0] ""  Door
+
+BO_ 257 TurnRightLamp: 1 Central_note
+ SG_ TurnRight : 0|1@1+ (1,0) [0|0] ""  RearRight_Node,FrontRight_Node
+
+BO_ 256 TurnLeftLamp: 1 Central_note
+ SG_ TurnLeft : 0|1@1+ (1,0) [0|0] ""  RearLeft_Node,FrontLeft_Node_
+
+
+
+EV_ evwindowrestore: 0 [0|1] "" 0 1 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ evwindowstore: 0 [0|1] "" 0 2 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ evwindowdown: 0 [0|1] "" 0 3 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ evwindowup: 0 [0|1] "" 0 4 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ evRearRight: 0 [0|1] "" 0 5 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ evFrontRight: 0 [0|1] "" 0 6 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ evRearLeft: 0 [0|1] "" 0 7 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ evFrontLeft: 0 [0|1] "" 0 8 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ evAlarm: 0 [0|1] "" 0 9 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ evTurnRight: 0 [0|1] "" 0 10 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ evTurnLeft: 0 [0|1] "" 0 11 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+

@@ -1,0 +1,62 @@
+/*@@var:*/
+variables
+{
+	message Errframe M540;
+	message Remframe M550;
+	message ID100_DLC1_LSB M500;
+	message ID100_DLC1_MSB M510;
+	message ID100_DLC2_LSB M520;
+	message ID100_DLC2_LSBMSB M560;
+	message ID100_DLC2_MSB M530;
+}
+/*@@end*/
+
+/*@@envVar:Errframe:*/
+on envVar Errframe
+{
+	Output(M540);
+}
+/*@@end*/
+
+/*@@envVar:Remframe:*/
+on envVar Remframe
+{
+	Output(M550);
+}
+/*@@end*/
+
+/*@@envVar:ID100_DLC2_LSBMSB:*/
+on envVar ID100_DLC2_LSBMSB
+{
+	output(M560);
+}
+/*@@end*/
+
+/*@@envVar:ID100_DLC1_LSB:*/
+on envVar ID100_DLC1_LSB
+{
+	output(M500);
+}
+/*@@end*/
+
+/*@@envVar:ID100_DLC1_MSB:*/
+on envVar ID100_DLC1_MSB 
+{
+	output(M510);
+}
+/*@@end*/
+
+/*@@envVar:ID100_DLC2_MSB:*/
+on envVar ID100_DLC2_MSB 
+{
+	output(M530);
+}
+/*@@end*/
+
+/*@@envVar:ID100_DLC2_LSB:*/
+on envVar ID100_DLC2_LSB 
+{
+	output(M520);
+}
+/*@@end*/
+
