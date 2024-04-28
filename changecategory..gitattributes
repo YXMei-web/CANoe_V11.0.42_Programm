@@ -1,3 +1,2 @@
 *.csc linguist-detectable=false
-*.can linguist-detectable=true
-
+*.can linguist-vendored=false
