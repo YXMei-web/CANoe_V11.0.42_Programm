@@ -20,7 +20,7 @@
       <Property Name="Font">Verdana, 12pt, style=Bold</Property>
       <Property Name="TextAlign">TopLeft</Property>
       <Property Name="BorderStyle">None</Property>
-      <Property Name="Text">°C</Property>
+      <Property Name="Text">癈</Property>
       <Property Name="ForeColor">0,0,255</Property>
     </Object>
     <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl2" ControlName="ElemST" Children="Controls">

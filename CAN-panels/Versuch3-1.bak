@@ -1,85 +1,80 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null">
-  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="Driver Display">
-    <Object Type="Vector.CANalyzer.Panels.Design.PictureBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="PictureBoxControl0" ControlName="ElemSBM">
+<?xml version="1.0"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="Driver Display">
+    <Object Type="Vector.CANalyzer.Panels.Design.PictureBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="PictureBoxControl0" ControlName="ElemSBM">
       <Property Name="Name">PictureBoxControl0</Property>
-      <Property Name="Size">33,36</Property>
-      <Property Name="Location">484,127</Property>
-      <Property Name="ImageFile">..\..\..\..\..\Bitmaps\Versuch3-2.bmp</Property>
+      <Property Name="Size">33, 36</Property>
+      <Property Name="Location">484, 127</Property>
+      <Property Name="ImageFile">..\..\lab_bitmaps\Versuch3-2.bmp</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.PictureBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="PictureBoxControl1" ControlName="ElemSBM">
+    <Object Type="Vector.CANalyzer.Panels.Design.PictureBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="PictureBoxControl1" ControlName="ElemSBM">
       <Property Name="Name">PictureBoxControl1</Property>
-      <Property Name="Size">33,36</Property>
-      <Property Name="Location">140,126</Property>
-      <Property Name="ImageFile">..\..\..\..\..\Bitmaps\Versuch3-2.bmp</Property>
+      <Property Name="Size">33, 36</Property>
+      <Property Name="Location">140, 126</Property>
+      <Property Name="ImageFile">..\..\lab_bitmaps\Versuch3-2.bmp</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.PictureBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="PictureBoxControl2" ControlName="ElemSBM">
+    <Object Type="Vector.CANalyzer.Panels.Design.PictureBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="PictureBoxControl2" ControlName="ElemSBM">
       <Property Name="Name">PictureBoxControl2</Property>
-      <Property Name="Size">18,15</Property>
-      <Property Name="Location">319,64</Property>
-      <Property Name="ImageFile">..\..\..\..\..\Bitmaps\Versuch3-3.bmp</Property>
+      <Property Name="Size">18, 15</Property>
+      <Property Name="Location">317, 65</Property>
+      <Property Name="ImageFile">..\..\lab_bitmaps\Versuch3-2.bmp</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.MeterControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="MeterControl3" ControlName="EnvVar:evtankrec">
+    <Object Type="Vector.CANalyzer.Panels.Design.MeterControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="MeterControl3" ControlName="EnvVar:evtankrec">
       <Property Name="Name">MeterControl3</Property>
-      <Property Name="Size">97,73</Property>
-      <Property Name="Location">280,35</Property>
-      <Property Name="ScaleMin">0</Property>
+      <Property Name="Size">97, 73</Property>
+      <Property Name="Location">273, 36</Property>
       <Property Name="ScaleMax">65</Property>
       <Property Name="SweepAngleFrom">235</Property>
       <Property Name="SweepAngleTo">130</Property>
-      <Property Name="NeedleColor">255,0,0</Property>
-      <Property Name="PivotDistance">0</Property>
+      <Property Name="NeedleColor">Red</Property>
       <Property Name="NeedleShape">TriangleWithPoint</Property>
       <Property Name="SymbolConfiguration">1;1;;;;evtankrec</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.MeterControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="MeterControl4" ControlName="EnvVar:evtemperaturerec">
+    <Object Type="Vector.CANalyzer.Panels.Design.MeterControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="MeterControl4" ControlName="EnvVar:evtemperaturerec">
       <Property Name="Name">MeterControl4</Property>
-      <Property Name="Size">90,54</Property>
-      <Property Name="Location">285,26</Property>
-      <Property Name="ScaleMin">0</Property>
+      <Property Name="Size">90, 54</Property>
+      <Property Name="Location">280, 31</Property>
       <Property Name="ScaleMax">150</Property>
       <Property Name="SweepAngleFrom">-50</Property>
       <Property Name="SweepAngleTo">40</Property>
-      <Property Name="NeedleColor">255,0,0</Property>
-      <Property Name="PivotDistance">0</Property>
+      <Property Name="NeedleColor">Red</Property>
       <Property Name="NeedleShape">TriangleWithPoint</Property>
       <Property Name="SymbolConfiguration">1;1;;;;evtemperaturerec</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.MeterControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="MeterControl5" ControlName="EnvVar:evcarspeedrec">
+    <Object Type="Vector.CANalyzer.Panels.Design.MeterControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="MeterControl5" ControlName="EnvVar:evcarspeedrec">
       <Property Name="Name">MeterControl5</Property>
-      <Property Name="Size">170,150</Property>
-      <Property Name="Location">415,70</Property>
+      <Property Name="Size">170, 150</Property>
+      <Property Name="Location">415, 70</Property>
       <Property Name="ScaleMin">10</Property>
       <Property Name="ScaleMax">155</Property>
       <Property Name="SweepAngleFrom">-130</Property>
       <Property Name="SweepAngleTo">120</Property>
-      <Property Name="NeedleColor">255,0,0</Property>
-      <Property Name="PivotDistance">0</Property>
+      <Property Name="NeedleColor">Red</Property>
       <Property Name="NeedleShape">TriangleWithPoint</Property>
       <Property Name="SymbolConfiguration">1;1;;;;evcarspeedrec</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.MeterControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="MeterControl6" ControlName="EnvVar:evengspeedrec">
+    <Object Type="Vector.CANalyzer.Panels.Design.MeterControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="MeterControl6" ControlName="EnvVar:evengspeedrec">
       <Property Name="Name">MeterControl6</Property>
-      <Property Name="Size">175,150</Property>
-      <Property Name="Location">70,71</Property>
+      <Property Name="Size">175, 150</Property>
+      <Property Name="Location">70, 71</Property>
       <Property Name="ScaleMin">1000</Property>
       <Property Name="ScaleMax">8000</Property>
       <Property Name="SweepAngleFrom">-130</Property>
       <Property Name="SweepAngleTo">110</Property>
-      <Property Name="NeedleColor">255,0,0</Property>
-      <Property Name="PivotDistance">0</Property>
+      <Property Name="NeedleColor">Red</Property>
       <Property Name="NeedleShape">TriangleSlimFilled</Property>
       <Property Name="SymbolConfiguration">1;1;;;;evengspeedrec</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.PictureBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="PictureBoxControl7" ControlName="ElemSBM">
+    <Object Type="Vector.CANalyzer.Panels.Design.PictureBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="PictureBoxControl7" ControlName="ElemSBM">
       <Property Name="Name">PictureBoxControl7</Property>
-      <Property Name="Size">650,310</Property>
-      <Property Name="Location">0,0</Property>
-      <Property Name="ImageFile">..\..\..\..\..\Bitmaps\Versuch3-1.bmp</Property>
-      <Property Name="TransparentColor">3,2,1</Property>
+      <Property Name="Size">650, 310</Property>
+      <Property Name="Location">0, 0</Property>
+      <Property Name="TransparentColor">3, 2, 1</Property>
+      <Property Name="ImageFile">..\..\lab_bitmaps\Versuch3-1.bmp</Property>
     </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">650, 310</Property>
+    <Property Name="BackColor">White</Property>
     <Property Name="Panel">Panel</Property>
-    <Property Name="Size">650,310</Property>
-    <Property Name="BackColor">255,255,255</Property>
   </Object>
 </Panel>

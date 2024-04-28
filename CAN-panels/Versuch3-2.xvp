@@ -1,123 +1,140 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null">
-  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="control">
-    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl0" ControlName="ElemST" Children="Controls">
+<?xml version="1.0"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="control">
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl0" Children="Controls" ControlName="ElemST">
       <Property Name="Name">StaticTextControl0</Property>
-      <Property Name="Size">65,20</Property>
-      <Property Name="Location">85,70</Property>
-      <Property Name="BackColor">0,0,0</Property>
+      <Property Name="Size">65, 20</Property>
+      <Property Name="Location">85, 70</Property>
+      <Property Name="BackColor">Black</Property>
       <Property Name="Font">Verdana, 12pt, style=Bold</Property>
-      <Property Name="TextAlign">TopLeft</Property>
-      <Property Name="BorderStyle">None</Property>
       <Property Name="Text">l</Property>
-      <Property Name="ForeColor">0,0,255</Property>
+      <Property Name="ForeColor">Blue</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl1" ControlName="ElemST" Children="Controls">
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl1" Children="Controls" ControlName="ElemST">
       <Property Name="Name">StaticTextControl1</Property>
-      <Property Name="Size">65,20</Property>
-      <Property Name="Location">85,100</Property>
-      <Property Name="BackColor">0,0,0</Property>
+      <Property Name="Size">65, 20</Property>
+      <Property Name="Location">85, 100</Property>
+      <Property Name="BackColor">Black</Property>
       <Property Name="Font">Verdana, 12pt, style=Bold</Property>
-      <Property Name="TextAlign">TopLeft</Property>
-      <Property Name="BorderStyle">None</Property>
-      <Property Name="Text">°C</Property>
-      <Property Name="ForeColor">0,0,255</Property>
+      <Property Name="Text">癈</Property>
+      <Property Name="ForeColor">Blue</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl2" ControlName="ElemST" Children="Controls">
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl2" Children="Controls" ControlName="ElemST">
       <Property Name="Name">StaticTextControl2</Property>
-      <Property Name="Size">65,20</Property>
-      <Property Name="Location">85,40</Property>
-      <Property Name="BackColor">0,0,0</Property>
+      <Property Name="Size">65, 20</Property>
+      <Property Name="Location">85, 40</Property>
+      <Property Name="BackColor">Black</Property>
       <Property Name="Font">Verdana, 12pt, style=Bold</Property>
-      <Property Name="TextAlign">TopLeft</Property>
-      <Property Name="BorderStyle">None</Property>
       <Property Name="Text">1/min</Property>
-      <Property Name="ForeColor">0,0,255</Property>
+      <Property Name="ForeColor">Blue</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl3" ControlName="ElemST" Children="Controls">
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl3" Children="Controls" ControlName="ElemST">
       <Property Name="Name">StaticTextControl3</Property>
-      <Property Name="Size">65,20</Property>
-      <Property Name="Location">85,10</Property>
-      <Property Name="BackColor">0,0,0</Property>
+      <Property Name="Size">65, 20</Property>
+      <Property Name="Location">85, 10</Property>
+      <Property Name="BackColor">Black</Property>
       <Property Name="Font">Verdana, 12pt, style=Bold</Property>
-      <Property Name="TextAlign">TopLeft</Property>
-      <Property Name="BorderStyle">None</Property>
       <Property Name="Text">km/h</Property>
-      <Property Name="ForeColor">0,0,255</Property>
+      <Property Name="ForeColor">Blue</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl4" ControlName="EnvVar:evtemperaturetrans" Children="Controls">
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl4" Children="Controls" ControlName="EnvVar:evtemperaturetrans">
       <Property Name="Name">TextBoxControl4</Property>
-      <Property Name="Size">50,19</Property>
-      <Property Name="Location">30,100</Property>
-      <Property Name="BoxForeColor">0,0,255</Property>
-      <Property Name="ValueDecimalPlaces">2</Property>
-      <Property Name="BoxTextAlign">Left</Property>
-      <Property Name="BoxBorderStyle">Fixed3D</Property>
+      <Property Name="Size">50, 23</Property>
+      <Property Name="Location">30, 100</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="BoxForeColor">Blue</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
       <Property Name="ValueDisplay">Decimal</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
       <Property Name="BoxFont">Verdana, 12pt, style=Bold</Property>
+      <Property Name="AlarmUpperFont">Verdana, 12pt, style=Bold</Property>
+      <Property Name="AlarmLowerFont">Verdana, 12pt, style=Bold</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
       <Property Name="DisplayLabel">Hide</Property>
       <Property Name="DescriptionText">evtemperaturetrans:</Property>
-      <Property Name="BoxBackColor">0,0,0</Property>
+      <Property Name="BoxBackColor">Black</Property>
+      <Property Name="DescriptionSize">0, 0</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
       <Property Name="SymbolConfiguration">1;1;;;;evtemperaturetrans</Property>
-      <Property Name="ReadOnlyControl">False</Property>
+      <Property Name="TabIndex">4</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl5" ControlName="EnvVar:evtanktrans" Children="Controls">
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl5" Children="Controls" ControlName="EnvVar:evtanktrans">
       <Property Name="Name">TextBoxControl5</Property>
-      <Property Name="Size">50,19</Property>
-      <Property Name="Location">30,70</Property>
-      <Property Name="BoxForeColor">0,0,255</Property>
-      <Property Name="ValueDecimalPlaces">2</Property>
-      <Property Name="BoxTextAlign">Left</Property>
-      <Property Name="BoxBorderStyle">Fixed3D</Property>
+      <Property Name="Size">50, 23</Property>
+      <Property Name="Location">30, 70</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="BoxForeColor">Blue</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
       <Property Name="ValueDisplay">Decimal</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
       <Property Name="BoxFont">Verdana, 12pt, style=Bold</Property>
+      <Property Name="AlarmUpperFont">Verdana, 12pt, style=Bold</Property>
+      <Property Name="AlarmLowerFont">Verdana, 12pt, style=Bold</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
       <Property Name="DisplayLabel">Hide</Property>
       <Property Name="DescriptionText">evtanktrans:</Property>
-      <Property Name="BoxBackColor">0,0,0</Property>
+      <Property Name="BoxBackColor">Black</Property>
+      <Property Name="DescriptionSize">0, 0</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
       <Property Name="SymbolConfiguration">1;1;;;;evtanktrans</Property>
-      <Property Name="ReadOnlyControl">False</Property>
+      <Property Name="TabIndex">5</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl6" ControlName="EnvVar:evengspeedtrans" Children="Controls">
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl6" Children="Controls" ControlName="EnvVar:evengspeedtrans">
       <Property Name="Name">TextBoxControl6</Property>
-      <Property Name="Size">50,19</Property>
-      <Property Name="Location">30,40</Property>
-      <Property Name="BoxForeColor">0,0,255</Property>
-      <Property Name="ValueDecimalPlaces">2</Property>
-      <Property Name="BoxTextAlign">Left</Property>
-      <Property Name="BoxBorderStyle">Fixed3D</Property>
+      <Property Name="Size">50, 23</Property>
+      <Property Name="Location">30, 40</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="BoxForeColor">Blue</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
       <Property Name="ValueDisplay">Decimal</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
       <Property Name="BoxFont">Verdana, 12pt, style=Bold</Property>
+      <Property Name="AlarmUpperFont">Verdana, 12pt, style=Bold</Property>
+      <Property Name="AlarmLowerFont">Verdana, 12pt, style=Bold</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
       <Property Name="DisplayLabel">Hide</Property>
       <Property Name="DescriptionText">evengspeedtrans:</Property>
-      <Property Name="BoxBackColor">0,0,0</Property>
+      <Property Name="BoxBackColor">Black</Property>
+      <Property Name="DescriptionSize">0, 0</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
       <Property Name="SymbolConfiguration">1;1;;;;evengspeedtrans</Property>
-      <Property Name="ReadOnlyControl">False</Property>
+      <Property Name="TabIndex">6</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl7" ControlName="EnvVar:evcarspeedtrans" Children="Controls">
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl7" Children="Controls" ControlName="EnvVar:evcarspeedtrans">
       <Property Name="Name">TextBoxControl7</Property>
-      <Property Name="Size">50,19</Property>
-      <Property Name="Location">30,10</Property>
-      <Property Name="BoxForeColor">0,0,255</Property>
-      <Property Name="ValueDecimalPlaces">2</Property>
-      <Property Name="BoxTextAlign">Left</Property>
-      <Property Name="BoxBorderStyle">Fixed3D</Property>
+      <Property Name="Size">50, 23</Property>
+      <Property Name="Location">30, 10</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="BoxForeColor">Blue</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
       <Property Name="ValueDisplay">Decimal</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
       <Property Name="BoxFont">Verdana, 12pt, style=Bold</Property>
+      <Property Name="AlarmUpperFont">Verdana, 12pt, style=Bold</Property>
+      <Property Name="AlarmLowerFont">Verdana, 12pt, style=Bold</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
       <Property Name="DisplayLabel">Hide</Property>
       <Property Name="DescriptionText">evcarspeedtrans:</Property>
-      <Property Name="BoxBackColor">0,0,0</Property>
+      <Property Name="BoxBackColor">Black</Property>
+      <Property Name="DescriptionSize">0, 0</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
       <Property Name="SymbolConfiguration">1;1;;;;evcarspeedtrans</Property>
-      <Property Name="ReadOnlyControl">False</Property>
+      <Property Name="TabIndex">7</Property>
     </Object>
-    <Object Type="Vector.CANalyzer.Panels.Design.PictureBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.2.36.0, Culture=neutral, PublicKeyToken=null" Name="PictureBoxControl8" ControlName="ElemSBM">
+    <Object Type="Vector.CANalyzer.Panels.Design.PictureBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=17.3.91.0, Culture=neutral, PublicKeyToken=null" Name="PictureBoxControl8" ControlName="ElemSBM">
       <Property Name="Name">PictureBoxControl8</Property>
-      <Property Name="Size">176,136</Property>
-      <Property Name="Location">0,0</Property>
+      <Property Name="Size">176, 136</Property>
+      <Property Name="Location">0, 0</Property>
+      <Property Name="TransparentColor">3, 2, 1</Property>
       <Property Name="ImageFile">..\..\..\..\..\Bitmaps\Versuch3-4.bmp</Property>
-      <Property Name="TransparentColor">3,2,1</Property>
     </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">176, 136</Property>
+    <Property Name="BackColor">White</Property>
     <Property Name="Panel">Panel</Property>
-    <Property Name="Size">176,136</Property>
-    <Property Name="BackColor">255,255,255</Property>
   </Object>
 </Panel>
