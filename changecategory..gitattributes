@@ -1,2 +1,6 @@
 *.csc linguist-detectable=false
+* linguist-vendored
 *.can linguist-vendored=false
+*.cbf linguist-detectable=true
+*.can linguist-detectable=true
+
