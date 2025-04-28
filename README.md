@@ -1,4 +1,4 @@
-# CANoe_V11.0.42_Programm
+# CANoe-gestützten Testsystemen für Karosserieelektronik
 
 ## Versuch 1: test different telegrams ##
 ## Versuch 2: ein Simulationsmodell in CANoe, um den Außenspiegel anzusteuern ##
